@@ -4,12 +4,16 @@ Una API RESTful para acortar URLs utilizando Node.js, Express y MongoDB. Esta AP
 
 ---
 
+## URL del proyecto
+
+[https://roadmap.sh/projects/url-shortening-service](https://roadmap.sh/projects/url-shortening-service)
+
 ## 🚀 Tecnologías Utilizadas
 
 - **Lenguaje:** JavaScript (Node.js)
 - **Framework:** Express.js
 - **Base de datos:** MongoDB (Mongoose ODM)
-- **ID único:** NanoID
+- **ID único:** NanoID`
 - **Pruebas:** Jest + Supertest
 - **Desarrollo:** Nodemon + ESLint
 
@@ -17,13 +21,13 @@ Una API RESTful para acortar URLs utilizando Node.js, Express y MongoDB. Esta AP
 
 ## 📦 Funcionalidades
 
-| Método | Endpoint                         | Descripción                              |
-|--------|----------------------------------|------------------------------------------|
-| POST   | `/shorten`                       | Crea una nueva URL corta                 |
-| GET    | `/shorten/:shortCode`           | Recupera la URL original                 |
-| PUT    | `/shorten/:shortCode`           | Actualiza la URL original                |
-| DELETE | `/shorten/:shortCode`           | Elimina una URL corta                    |
-| GET    | `/shorten/:shortCode/stats`     | Obtiene estadísticas de acceso           |
+| Método | Endpoint                    | Descripción                    |
+| ------ | --------------------------- | ------------------------------ |
+| POST   | `/shorten`                  | Crea una nueva URL corta       |
+| GET    | `/shorten/:shortCode`       | Recupera la URL original       |
+| PUT    | `/shorten/:shortCode`       | Actualiza la URL original      |
+| DELETE | `/shorten/:shortCode`       | Elimina una URL corta          |
+| GET    | `/shorten/:shortCode/stats` | Obtiene estadísticas de acceso |
 
 ---
 
@@ -57,7 +61,7 @@ url-shortener-api/
 ├── server.js             # Punto de entrada
 └── README.md             # Documentación del proyecto
 
-````
+```
 
 ---
 
@@ -72,7 +76,7 @@ Ejecuta las pruebas con:
 
 ```bash
 npm test
-````
+```
 
 ---
 
@@ -109,10 +113,10 @@ npm test
 
 ## 📌 Consideraciones
 
-* Aún no incluye autenticación. Ideal para MVPs o entornos cerrados.
-* Puede integrarse fácilmente con un frontend ligero.
-* Código limpio, modular y escalable.
-* Ideal como práctica para desarrolladores full stack en formación.
+- Aún no incluye autenticación. Ideal para MVPs o entornos cerrados.
+- Puede integrarse fácilmente con un frontend ligero.
+- Código limpio, modular y escalable.
+- Ideal como práctica para desarrolladores full stack en formación.
 
 ---
 
